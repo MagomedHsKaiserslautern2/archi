@@ -7,6 +7,8 @@
   <folder name="Business" id="id-450f5d0e691248c3aa7e2aa88cdb6fb4" type="business">
     <element xsi:type="archimate:BusinessActor" name="Business Actor" id="id-3cf79428c7734444b511177bb4cfbe6a"/>
     <element xsi:type="archimate:BusinessActor" name="Business Actor" id="id-be89aa8d3a65451cb742272cdfdda7b9"/>
+    <element xsi:type="archimate:BusinessInteraction" name="Business Interaction" id="id-a7d793ac0d01447bab7e2f676c406a3e"/>
+    <element xsi:type="archimate:BusinessInterface" name="Business Interface" id="id-8359616a0d6a4c7c9d0a7a98db7b3d44"/>
   </folder>
   <folder name="Application" id="id-920c192af7d04061b78876d24d52efe3" type="application">
     <element xsi:type="archimate:ApplicationCollaboration" name="Application Collaboration" id="id-fecfc9449f3d49e1980d9811a959ebf3"/>
@@ -32,6 +34,12 @@
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-b147142c995f433c9464bd8485c47e84" archimateElement="id-fecfc9449f3d49e1980d9811a959ebf3">
         <bounds x="633" y="386" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-0dee6ca122934b6882f87a14b5b63266" archimateElement="id-a7d793ac0d01447bab7e2f676c406a3e">
+        <bounds x="442" y="353" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-037a47ef11aa4d32b768d40cee5d5a53" archimateElement="id-8359616a0d6a4c7c9d0a7a98db7b3d44">
+        <bounds x="179" y="169" width="120" height="55"/>
       </child>
     </element>
   </folder>
