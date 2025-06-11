@@ -173,4 +173,16 @@
         xsi:type="archimate:CourseOfAction"
         href="CourseOfAction_id-72ff32c1cd7f4f298e21e807cdf3aa9c.xml#id-72ff32c1cd7f4f298e21e807cdf3aa9c"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-f5d196e1e00d467aa5aec6e7c8eca27c">
+    <bounds
+        x="797"
+        y="462"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessInteraction"
+        href="BusinessInteraction_id-d076337b8f8a49e380ac489645d74a79.xml#id-d076337b8f8a49e380ac489645d74a79"/>
+  </children>
 </archimate:ArchimateDiagramModel>
