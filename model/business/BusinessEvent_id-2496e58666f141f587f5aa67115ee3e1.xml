@@ -1,0 +1,5 @@
+<archimate:BusinessEvent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Energieversorgung"
+    id="id-2496e58666f141f587f5aa67115ee3e1"
+    documentation="• Erzeugung: Nutzung erneuerbarer Energiequellen (PV, Solar, ggf. Wind)&#xA;• Speicherung: Batteriespeicher zur Eigenverbrauchsoptimierung&#xA;• Verteilung: Intelligente Steuerung durch Home Energy Management System (HEMS)&#xA;• Monitoring: Visualisierung von Erzeugung, Verbrauch, Netzbezug&#xA;• Netzanschluss: Normgerechter, bidirektionaler Netzanschluss&#xA;• Resilienz: Optionaler Notstrombetrieb bei Netzausfall&#xA;• Nachhaltigkeit: Langlebige, wartungsarme und recyclebare Komponenten&#xA;"/>

@@ -1,0 +1,5 @@
+<archimate:BusinessEvent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Smart-Home-System"
+    id="id-6b099b14f8c24ad4b7733a14da84a4d6"
+    documentation="• Interoperabilität: Offene Standards wie KNX, Matter, Modbus&#xA;• Energieeffizienz: Automatisierte Optimierung des Verbrauchs&#xA;• Bedienung: Intuitive Steuerung via App, Touch, Sprache&#xA;• Sicherheit: Ende-zu-Ende-Verschlüsselung, Datenschutzkonform&#xA;• Monitoring: Echtzeit-Visualisierung von Verbräuchen&#xA;• Fernzugriff: Web-/App-Zugriff, Push-Benachrichtigungen&#xA;• Modularität: Erweiterbarkeit ohne Systembruch&#xA;"/>
