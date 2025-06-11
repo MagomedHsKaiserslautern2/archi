@@ -28,15 +28,26 @@
         href="Resource_id-2a2669c294bd4788b3956bedd80d87d3.xml#id-2a2669c294bd4788b3956bedd80d87d3"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-4950db547480415c89d1543078cc0277">
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-451d0ebd673046e6acdf051f2913d37d"
+      name="Group"
+      textAlignment="1">
     <bounds
-        x="584"
-        y="238"
+        x="563"
+        y="275"
+        width="400"
+        height="140"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-f0ffec94aed844c199b7e52227c71883">
+    <bounds
+        x="446"
+        y="147"
         width="120"
         height="55"/>
     <archimateElement
         xsi:type="archimate:ValueStream"
-        href="ValueStream_id-319c1dfc77464627b0605253616a3817.xml#id-319c1dfc77464627b0605253616a3817"/>
+        href="ValueStream_id-eb12539d0c5245c3a4a9c71990ba3694.xml#id-eb12539d0c5245c3a4a9c71990ba3694"/>
   </children>
 </archimate:ArchimateDiagramModel>
