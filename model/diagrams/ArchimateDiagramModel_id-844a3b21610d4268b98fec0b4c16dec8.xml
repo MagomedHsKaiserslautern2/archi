@@ -161,4 +161,16 @@
         xsi:type="archimate:Junction"
         href="Junction_id-9f11886749b94830a33038620c3b34d4.xml#id-9f11886749b94830a33038620c3b34d4"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-4d3633fee7eb4f5db4cfeeaeea431f3c">
+    <bounds
+        x="973"
+        y="312"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:CourseOfAction"
+        href="CourseOfAction_id-72ff32c1cd7f4f298e21e807cdf3aa9c.xml#id-72ff32c1cd7f4f298e21e807cdf3aa9c"/>
+  </children>
 </archimate:ArchimateDiagramModel>
