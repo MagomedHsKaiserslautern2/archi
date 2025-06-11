@@ -1,3 +1,7 @@
+<archimate:ApplicationInteraction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Application Interaction"
+    id="id-3d3af1229b25460ba93541c4f675070d"/>
 <?xml version="1.0" encoding="UTF-8"?>
 <archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="(new model)" id="id-c193f7742e074feaa4cf97cce3a86376" version="5.0.0">
   <folder name="Strategy" id="id-575555b2c16b4b55bac63d2a16b1b25d" type="strategy"/>
