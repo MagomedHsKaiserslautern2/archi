@@ -99,4 +99,28 @@
         xsi:type="archimate:BusinessProcess"
         href="BusinessProcess_id-b0b17526649b4bdcb047f837f837aa43.xml#id-b0b17526649b4bdcb047f837f837aa43"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-f22b937e05cf412a8e8ebd870749a1f0">
+    <bounds
+        x="362"
+        y="136"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Capability"
+        href="Capability_id-0962d3260ed64db59dbdc1e6fce6c043.xml#id-0962d3260ed64db59dbdc1e6fce6c043"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-712165b668624108a2ff7d7d9357bcf9">
+    <bounds
+        x="121"
+        y="471"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ValueStream"
+        href="ValueStream_id-e2ed4904200e4e338b205923c22c6e0e.xml#id-e2ed4904200e4e338b205923c22c6e0e"/>
+  </children>
 </archimate:ArchimateDiagramModel>
