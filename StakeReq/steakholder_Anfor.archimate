@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="(new model)" id="id-ee84d2d630cd4095a522ee1d5c9b06d9" version="5.0.0">
+  <folder name="Strategy" id="id-a53e8d954b764628b0c16bcc67e8662c" type="strategy"/>
+  <folder name="Business" id="id-fd16f639dae9425f8b443483475047e9" type="business">
+    <element xsi:type="archimate:BusinessService" name="Steakholder Anforderungen" id="id-10f2814a51224287b29870749fc1017a"/>
+    <element xsi:type="archimate:BusinessService" name="Energiesystem" id="id-8bea6aa802654ca58da4a4005f8af62c">
+      <documentation>1- Selbstversorgung mit Strom durch PV-Anlage .&#xD;
+2- Das Auto wird als Batteriespeicher genutzt.&#xD;
+3- Das Haus soll vollständig elektrisch betrieben werden, ohne Einsatz von Gas&#xD;
+4- Das Energiesystem soll möglichst wenig Wartung benötigen und viele Jahre zuverlässig.&#xD;
+5- Das Energiesystem soll automatisiert steuerbar, aber bei Ausfall manuell bedienbar sein.&#xD;
+6- Das Haus soll hoher energieautark sein.&#xD;
+7- Bei der Auswahl der Systemkomponenten soll auf Umweltfreundlichkeit und Recyclingfähigkeit . geachtet werden.&#xD;
+8- Geringe Betriebkosten.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessService" name="Müllmanagementsystem" id="id-7eb9ef70a28748c18fd59dff6460995c">
+      <documentation>Umweltschonend</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessService" name="Heizungs-und Lüftungsystem" id="id-fe87b7295af848b7a14078d05b016723">
+      <documentation>1- Das Heiz- und Kühlsystem soll langfristig geringe Betriebskosten verursachen.&#xD;
+2-Es sollen energieeffiziente, langlebige, umweltfreundliche und kostengünstige Geräte eingesetzt werden.&#xD;
+3- Das Haus soll eine automatische Lüftungsanlage haben.&#xD;
+4- Der Einsatz  fossiler Energieträger wie  Gas zur Beheizung des Hauses ist untersagt.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessService" name="Materialien und Nachhaltigkeit" id="id-80a489a8ab9a4f3da75637ad7e0245fc">
+      <documentation>1- Das Haus soll mit langlebigen Materialien gebaut sein.&#xD;
+2- Vermeidung von Materialien, die teuer sind oder keine gute Dämmung bieten.&#xD;
+3- Nutzung von Materialien, die geringer Wartungaufwand benötigen.&#xD;
+4- Die Materialien sollen nachhaltig sein, also recycelbar oder wiederverwendbar.&#xD;
+5- Bevorzugung passiver Bauweise ( Gute Dämmung , Natürliche Belichtung und Belüftung).&#xD;
+6- Das Haus soll in Verbindung mit der Natur sein.&#xD;
+7- ein Wohnkonzept mit hoher Privatsphäre &#xD;
+8- Das Haus muss sich harmonische in der natürlichen Umgebung einfügen.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessService" name="Wasser- und Umwelt" id="id-c2b0c78238d343d7bfda26e6ea0aa83e">
+      <documentation>1- Wasserspeicherung und Verteilung&#xD;
+2- Regenwassersammelsysteme&#xD;
+3- Grauwasser Aufbereitung.&#xD;
+4- Abwasserresuktion und Rückführung.</documentation>
+    </element>
+    <element xsi:type="archimate:Product" name="Technologie im Haus" id="id-017241ad9a444e978954a2208164a921">
+      <documentation>1- Automatisches Lüftungssystem.&#xD;
+2- LED-Beleuchtung wenn nötig.&#xD;
+3- Smart-Home-Energiemanagement.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessService" name="Architektur und Raumplannung" id="id-51392414d764410aa0754150073c38d5">
+      <documentation>1- Gute Wärmedämmung, minimaler Energieverlust.&#xD;
+2- Räume, die sich leicht umgestalten oder verändern lassen.&#xD;
+3- Ausreichend Tageslicht in den Wohnbereichen.&#xD;
+4- Gesamtkosten im vertretbaren Budget halten.&#xD;
+5- Möglichkeit zur späteren Integration von Solaranlage, E-Ladestation usw.&#xD;
+6- Verwendung nachhaltiger, pflegeleichter und wiederverwendbarer Materialien.&#xD;
+7- Funktionale, offene Küchenaufteilung mit Bewegungsfreiheit.&#xD;
+8- Effizienter, kompakter Grundriss ohne unnötige Komplexität.&#xD;
+9- Gesetze und Vorschriften einhalten, energieeffizientes Design.&#xD;
+10- Zuverlässige, zugängliche Infrastruktur für Wasser und Strom, ausfallsicheres Design.</documentation>
+    </element>
+  </folder>
+  <folder name="Application" id="id-852fe143585b4396b1609f25b6a8e2a0" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-f95a2d49cfdf4aabacfbdaee770c0767" type="technology"/>
+  <folder name="Motivation" id="id-245b0318a3724e1cb8722b7dbdb8bb2b" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-ad391a73edbe4581816d0129164f68b2" type="implementation_migration"/>
+  <folder name="Other" id="id-e3cfdb5556ea4275b6400b72192aa8b6" type="other"/>
+  <folder name="Relations" id="id-285fb25eea75423c95cb62949035c8c4" type="relations">
+    <element xsi:type="archimate:TriggeringRelationship" id="id-4525640e70e447f2b89db058fb2566ce" source="id-8bea6aa802654ca58da4a4005f8af62c" target="id-10f2814a51224287b29870749fc1017a"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-a34b1582b4c94124b1da1c0e0cdb688d" source="id-c2b0c78238d343d7bfda26e6ea0aa83e" target="id-10f2814a51224287b29870749fc1017a"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-4e63b73f7911429bbbcb3bc3f03ca0e8" source="id-017241ad9a444e978954a2208164a921" target="id-10f2814a51224287b29870749fc1017a"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-5807fac88c794eed9b307c9351bbd7db" source="id-80a489a8ab9a4f3da75637ad7e0245fc" target="id-10f2814a51224287b29870749fc1017a"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-ee894e2240294925b636f2d7e66e4203" source="id-51392414d764410aa0754150073c38d5" target="id-10f2814a51224287b29870749fc1017a"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-942faf5ce498494396b7fc9580ed16d4" source="id-fe87b7295af848b7a14078d05b016723" target="id-10f2814a51224287b29870749fc1017a"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-a8db14d691fd41fd99a252872a5cb0c6" source="id-7eb9ef70a28748c18fd59dff6460995c" target="id-10f2814a51224287b29870749fc1017a"/>
+  </folder>
+  <folder name="Views" id="id-68b5fefebf7c4ef5b924c393abb9f960" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-b1aa75580e60495cafdb6fea10b7d16b">
+      <child xsi:type="archimate:DiagramObject" id="id-2e80cc7a49f74fc484ce95236f20e9f0" targetConnections="id-d71983aad11c495abc1e69ad41d50eca id-8118bfb140084ba99f70b7f5249cc063 id-60194fef09de4f27b86e66b75d49eae5 id-65eab036634640a8af87ad91c679750c id-f08185b7042c462582a626e85a203100 id-b4f5a39fd37f4817a10bccfe1d9ff09e id-8ca27f81bb5645d4a14daecaca2419ca" archimateElement="id-10f2814a51224287b29870749fc1017a">
+        <bounds x="252" y="276" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-677fb85c94e14f0e9940cfcc6fa5abe7" archimateElement="id-8bea6aa802654ca58da4a4005f8af62c">
+        <bounds x="252" y="420" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-d71983aad11c495abc1e69ad41d50eca" source="id-677fb85c94e14f0e9940cfcc6fa5abe7" target="id-2e80cc7a49f74fc484ce95236f20e9f0" archimateRelationship="id-4525640e70e447f2b89db058fb2566ce"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-092f776cb8d5420f9e8bf3bf9f57b2a7" archimateElement="id-7eb9ef70a28748c18fd59dff6460995c">
+        <bounds x="107" y="346" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-8ca27f81bb5645d4a14daecaca2419ca" source="id-092f776cb8d5420f9e8bf3bf9f57b2a7" target="id-2e80cc7a49f74fc484ce95236f20e9f0" archimateRelationship="id-a8db14d691fd41fd99a252872a5cb0c6"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-014589482d6b480a9959094330985f59" archimateElement="id-fe87b7295af848b7a14078d05b016723">
+        <bounds x="63" y="240" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-b4f5a39fd37f4817a10bccfe1d9ff09e" source="id-014589482d6b480a9959094330985f59" target="id-2e80cc7a49f74fc484ce95236f20e9f0" archimateRelationship="id-942faf5ce498494396b7fc9580ed16d4"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-e25471079fd448b5afd10851bdda3287" archimateElement="id-80a489a8ab9a4f3da75637ad7e0245fc">
+        <bounds x="240" y="120" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-65eab036634640a8af87ad91c679750c" source="id-e25471079fd448b5afd10851bdda3287" target="id-2e80cc7a49f74fc484ce95236f20e9f0" archimateRelationship="id-5807fac88c794eed9b307c9351bbd7db"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-c2ab810254454addab6647df4b2218a5" archimateElement="id-c2b0c78238d343d7bfda26e6ea0aa83e">
+        <bounds x="431" y="345" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-8118bfb140084ba99f70b7f5249cc063" source="id-c2ab810254454addab6647df4b2218a5" target="id-2e80cc7a49f74fc484ce95236f20e9f0" archimateRelationship="id-a34b1582b4c94124b1da1c0e0cdb688d"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-90ff8b86feaa46cbb1bc8030157f6914" archimateElement="id-017241ad9a444e978954a2208164a921">
+        <bounds x="456" y="252" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-60194fef09de4f27b86e66b75d49eae5" source="id-90ff8b86feaa46cbb1bc8030157f6914" target="id-2e80cc7a49f74fc484ce95236f20e9f0" archimateRelationship="id-4e63b73f7911429bbbcb3bc3f03ca0e8"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-896db6ce334443b6b649d7f620bdec37" archimateElement="id-51392414d764410aa0754150073c38d5">
+        <bounds x="456" y="132" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-f08185b7042c462582a626e85a203100" source="id-896db6ce334443b6b649d7f620bdec37" target="id-2e80cc7a49f74fc484ce95236f20e9f0" archimateRelationship="id-ee894e2240294925b636f2d7e66e4203"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
