@@ -123,4 +123,16 @@
         xsi:type="archimate:ValueStream"
         href="ValueStream_id-e2ed4904200e4e338b205923c22c6e0e.xml#id-e2ed4904200e4e338b205923c22c6e0e"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-fbc4e7d1ed38468a99885ce88197c1ec">
+    <bounds
+        x="802"
+        y="215"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Node"
+        href="Node_id-2596ea98deff4863af24221efd84de5f.xml#id-2596ea98deff4863af24221efd84de5f"/>
+  </children>
 </archimate:ArchimateDiagramModel>
