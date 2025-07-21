@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="customer motivation" id="id-27aa21daa80c447cadd5d9534a81cb8e" version="5.0.0">
+  <folder name="Strategy" id="id-a425b19041c243c198688d5571ac2797" type="strategy"/>
+  <folder name="Business" id="id-91d5277ea34f4ec4a843795d95473187" type="business"/>
+  <folder name="Application" id="id-c33e12f68d4c443fb7fe711f2a3ee73d" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-bba17b0605d04fecb758c6113be6001e" type="technology"/>
+  <folder name="Motivation" id="id-4aeda6283b054c1296af084e0d550e52" type="motivation">
+    <element xsi:type="archimate:Goal" name="Nachhaltiges Haus" id="id-0260db782df54d419acb8640d3c82645"/>
+    <element xsi:type="archimate:Requirement" name="Energieautarkie: PV-Anlagen" id="id-85ce386bde3f40faa6995fb6fe2683db"/>
+    <element xsi:type="archimate:Requirement" name="3 Personen Haushalt" id="id-22da7d9d42a2495e99588a0c565a1f2a"/>
+    <element xsi:type="archimate:Requirement" name="Langlebigkeit" id="id-ebf09a1c045f4fe8a99a0785285a3e80"/>
+    <element xsi:type="archimate:Requirement" name="Nachhaltigkeit" id="id-69887ea1852e4b87952811c7ff9807e1"/>
+    <element xsi:type="archimate:Requirement" name="Location: Ländliches Gebiet, gute Erreichbarkeit" id="id-12e358c3e5024b2eaf17bc58311044e2"/>
+    <element xsi:type="archimate:Constraint" name="Budgeteinhaltung" id="id-642de2f6fbc549d0b6c47a09ade538e7"/>
+    <element xsi:type="archimate:Constraint" name="Deadline für den Eintugstermin" id="id-6b882866714e4036b5deb0bdbbde0255"/>
+    <element xsi:type="archimate:Stakeholder" name="Stakeholder" id="id-fcc87e3ca7b1423080987ea8522d0088"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-e62e349455f042caab105b1d10db6081" type="implementation_migration"/>
+  <folder name="Other" id="id-a23e76fb8d93459c94b62eae9215acf1" type="other"/>
+  <folder name="Relations" id="id-5541ab359a0346a38151bf66eb4c3b52" type="relations">
+    <element xsi:type="archimate:AssociationRelationship" id="id-808e7ae59f3942d69bada5944c326b06" source="id-85ce386bde3f40faa6995fb6fe2683db" target="id-0260db782df54d419acb8640d3c82645"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-2396e503ff2340fa9ee190f89e7ed0a2" source="id-12e358c3e5024b2eaf17bc58311044e2" target="id-0260db782df54d419acb8640d3c82645"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-eddd96ad924e4381a428be991cafd3f4" source="id-22da7d9d42a2495e99588a0c565a1f2a" target="id-0260db782df54d419acb8640d3c82645"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-cd96c7c790674743a743ad41e7b51289" source="id-ebf09a1c045f4fe8a99a0785285a3e80" target="id-0260db782df54d419acb8640d3c82645"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-aaf90032396643acaf01472e1631aa65" source="id-69887ea1852e4b87952811c7ff9807e1" target="id-0260db782df54d419acb8640d3c82645"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-b28af54eee8a44f9868402843403c66a" source="id-fcc87e3ca7b1423080987ea8522d0088" target="id-0260db782df54d419acb8640d3c82645"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-c3971deccae145138639b57d1e030e4d" source="id-642de2f6fbc549d0b6c47a09ade538e7" target="id-0260db782df54d419acb8640d3c82645"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-11e97832b8af44e292896f06c3b14da0" source="id-6b882866714e4036b5deb0bdbbde0255" target="id-0260db782df54d419acb8640d3c82645"/>
+  </folder>
+  <folder name="Views" id="id-efcd4104089544e8928a0e75a1dbdd18" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-8414675019814d85b3dc44f6fb9c74dd">
+      <child xsi:type="archimate:DiagramObject" id="id-6982f29691b94cd4926bcc1272173a6a" targetConnections="id-2f4283c7da3947beb779ad8b6b067df3 id-f632b16a42da439fa43185679c05723a id-f170c20db50348edaa35415983498ec6 id-c58f9f9825be4ed2b519ef63d86a4033 id-4d061d6ecc7b43528e40bd6019a49055 id-4f73bddba8a24a3b835204d8805f8d0c id-ce1b493367c04c5aa289542aad59b8b7 id-08757b35c27146b6961ced667f2a9fa6" archimateElement="id-0260db782df54d419acb8640d3c82645">
+        <bounds x="409" y="192" width="168" height="97"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ac1f4b0638d44c2cb850f1af91410e37" archimateElement="id-85ce386bde3f40faa6995fb6fe2683db">
+        <bounds x="396" y="24" width="146" height="64"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-2f4283c7da3947beb779ad8b6b067df3" source="id-ac1f4b0638d44c2cb850f1af91410e37" target="id-6982f29691b94cd4926bcc1272173a6a" archimateRelationship="id-808e7ae59f3942d69bada5944c326b06"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-d483f86bda2f49408eb3a1171b99a98e" archimateElement="id-22da7d9d42a2495e99588a0c565a1f2a">
+        <bounds x="203" y="164" width="135" height="64"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-f170c20db50348edaa35415983498ec6" source="id-d483f86bda2f49408eb3a1171b99a98e" target="id-6982f29691b94cd4926bcc1272173a6a" archimateRelationship="id-eddd96ad924e4381a428be991cafd3f4"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-9211bd9cbf8a4b06b985587302ed1bd6" archimateElement="id-ebf09a1c045f4fe8a99a0785285a3e80">
+        <bounds x="218" y="264" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-c58f9f9825be4ed2b519ef63d86a4033" source="id-9211bd9cbf8a4b06b985587302ed1bd6" target="id-6982f29691b94cd4926bcc1272173a6a" archimateRelationship="id-cd96c7c790674743a743ad41e7b51289"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-3cd69744da5d403daa5ed4912021e1ff" archimateElement="id-69887ea1852e4b87952811c7ff9807e1">
+        <bounds x="392" y="336" width="153" height="59"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-4d061d6ecc7b43528e40bd6019a49055" source="id-3cd69744da5d403daa5ed4912021e1ff" target="id-6982f29691b94cd4926bcc1272173a6a" archimateRelationship="id-aaf90032396643acaf01472e1631aa65"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-fead7a9b88bd4f9ebe94e8dddadc8bb4" archimateElement="id-12e358c3e5024b2eaf17bc58311044e2">
+        <bounds x="192" y="46" width="157" height="67"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-f632b16a42da439fa43185679c05723a" source="id-fead7a9b88bd4f9ebe94e8dddadc8bb4" target="id-6982f29691b94cd4926bcc1272173a6a" archimateRelationship="id-2396e503ff2340fa9ee190f89e7ed0a2"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-15440f1ffbe64d55b66c7742e423212d" archimateElement="id-642de2f6fbc549d0b6c47a09ade538e7">
+        <bounds x="626" y="213" width="141" height="56"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-ce1b493367c04c5aa289542aad59b8b7" source="id-15440f1ffbe64d55b66c7742e423212d" target="id-6982f29691b94cd4926bcc1272173a6a" archimateRelationship="id-c3971deccae145138639b57d1e030e4d"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-daa11f86afa6415e963ca922df118241" archimateElement="id-6b882866714e4036b5deb0bdbbde0255">
+        <bounds x="624" y="276" width="145" height="50"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-08757b35c27146b6961ced667f2a9fa6" source="id-daa11f86afa6415e963ca922df118241" target="id-6982f29691b94cd4926bcc1272173a6a" archimateRelationship="id-11e97832b8af44e292896f06c3b14da0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-2d1d9e5448ca4e649d3900fa4f00c8f3" archimateElement="id-fcc87e3ca7b1423080987ea8522d0088">
+        <bounds x="637" y="156" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-4f73bddba8a24a3b835204d8805f8d0c" source="id-2d1d9e5448ca4e649d3900fa4f00c8f3" target="id-6982f29691b94cd4926bcc1272173a6a" archimateRelationship="id-b28af54eee8a44f9868402843403c66a"/>
+      </child>
+      <documentation>Dieses Diagramm stellt die Motivationen von dem Kunden für ein nachhaltiges Haus dar. Hierfür haben wir versucht, die Stakeholder Anforderungen dargestellt, die zum Verwirklichen des Eco Hauses beitragen und von großem Belang sind. Das Hervorheben von Einschränkungen wie Budget- und Fristeinhaltung sind hier auch von großem Belang.&#xD;
+</documentation>
+    </element>
+  </folder>
+</archimate:model>
