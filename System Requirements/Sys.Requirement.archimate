@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="(new model)" id="id-1842076135e64c478ef8f5acaf2126b1" version="5.0.0">
+  <folder name="Strategy" id="id-abbb8f52e3784e97941c282bbb0f7676" type="strategy">
+    <element xsi:type="archimate:Capability" id="id-ce2c4db3d5c44c79b165902213213ca3"/>
+  </folder>
+  <folder name="Business" id="id-99597216023a4046bf3d4eb4854b0877" type="business">
+    <element xsi:type="archimate:BusinessEvent" name="Wassermanagementsystem" id="id-2dac8f05d23d408c926dffa871904942">
+      <documentation>.Funktionalität: Erfassung, Nutzung und ggf. Aufbereitung von Regen- und Grauwasser
+• Effizienz: Minimierung des Frischwasserverbrauchs
+• Nachhaltigkeit: Materialeinsatz aus langlebigen, recyclebaren Werkstoffen
+• Regelung: Automatisierte Steuerung für Wasserverteilung
+• Überwachung: Sensorik für Füllstand, Leckage, Wasserqualität
+• Wartung: Wartungsfreundliche Zugänglichkeit
+• Schnittstellen: Integration in Smart-Home-System</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessService" id="id-6346be26ef554f619574022c298cccb1"/>
+    <element xsi:type="archimate:BusinessEvent" name="Energieversorgung" id="id-2496e58666f141f587f5aa67115ee3e1">
+      <documentation>• Erzeugung: Nutzung erneuerbarer Energiequellen (PV, Solar, ggf. Wind)
+• Speicherung: Batteriespeicher zur Eigenverbrauchsoptimierung
+• Verteilung: Intelligente Steuerung durch Home Energy Management System (HEMS)
+• Monitoring: Visualisierung von Erzeugung, Netzbezug
+• Netzanschluss: Normgerechter, bidirektionaler Netzanschluss
+• Resilienz: Optionaler Notstrombetrieb bei Netzausfall
+• Nachhaltigkeit: Langlebige, wartungsarme und recyclebare Komponenten
+</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessEvent" name="Ökologische Materialien" id="id-510e12a8cf1d4727976abeb662d5f39f">
+      <documentation>• Materialherkunft: Regionale, nachwachsende Rohstoffe
+• Gesundheit: Frei von Schadstoffen, 
+• Kennzeichnung: Zertifikate wie FSC, Natureplus, 
+• Pflege &amp; Nutzung: Robust, pflegeleicht, reinigungsmittelarm
+• Rückbau: Sortenreine Trennung, Wiederverwendbarkeit
+• Dokumentation: Materialpass im Gebäudepass
+</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessEvent" id="id-d6072d2fc1c24faa829b5c86c54537e9"/>
+    <element xsi:type="archimate:BusinessEvent" name="Heizung &amp; Lüftungssystem" id="id-f51956889e11407698080c52855f86cd">
+      <documentation>• Technik: Effiziente Systeme wie Wärmepumpen,
+• Energieverbrauch: geringer Stromverbrauch
+• Luftqualität: 
+• Wartung: Leichter Filterzugang, regelmäßige Wartung
+• Nachhaltigkeit: Umweltfreundliche Kältemittel, langlebige Technik
+</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessEvent" id="id-9d21795d6bb54e93abc70c9832bc3b5f"/>
+    <element xsi:type="archimate:BusinessEvent" name="Smart-Home-System" id="id-6b099b14f8c24ad4b7733a14da84a4d6">
+      <documentation>• Energieeffizienz: Automatisierte Optimierung des Verbrauchs
+• Bedienung: Intuitive Steuerung via App, Touch, Sprache
+• Sicherheit: Ende-zu-Ende-Verschlüsselung, Datenschutzkonform
+• Monitoring: Echtzeit-Visualisierung von Verbräuchen
+• Fernzugriff: Web-/App-Zugriff, Push-Benachrichtigungen
+• Modularität: Erweiterbarkeit ohne Systembruch
+</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="id-23cb3a9e63f94f78af6ecadd33794c25"/>
+    <element xsi:type="archimate:BusinessEvent" name="Systemanforderungen – Nachhaltiges Haus" id="id-751d47382ab745d18be20d9b96ab7b65"/>
+    <element xsi:type="archimate:BusinessCollaboration" id="id-3598ac59ea8f4c05abba8a5741814cfd"/>
+    <element xsi:type="archimate:BusinessEvent" name="Müllmanagementsystem" id="id-1f510c9f08d24165a62d63222de3e401">
+      <documentation>Trennung	Getrennte: für Bio-, Rest-, Papier-, Plastik- &amp; Sondermüll im Haus verfügbar
+Geruchskontrolle	: Bio-Abfallcontainer mit Aktivkohlefilter o. ä.
+Zugänglichkeit: 	Müllsystem barrierefrei erreichbar &amp; kinderfreundlich bedienbar
+Entsorgungsplanung:	Erinnerungssystem für Abfuhrtermine via Smart-Home oder App
+Kompostierbarkeit:	Optionale Integration eines kleinen Kompostsystems im Außenbereich
+Dokumentation:	Übersicht über jährliches Abfallaufkommen zur Bilanzierung der Umweltziele</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessEvent" name="Business Event" id="id-3b44cffd9946444b8875769c1a007f88"/>
+  </folder>
+  <folder name="Application" id="id-439aa444728b4e278f93fc81f3f85f7e" type="application">
+    <element xsi:type="archimate:DataObject" name="Systemanforderungen – Nachhaltiges Haus" id="id-3e4e06051d974596991d96399f2c0e44"/>
+  </folder>
+  <folder name="Technology &amp; Physical" id="id-abd7fdf4b7c846e6ab65cb31ad9785b0" type="technology">
+    <element xsi:type="archimate:TechnologyProcess" name="Technology Process" id="id-1bfa29b39f054229ad99aaa1bee3ef9d"/>
+    <element xsi:type="archimate:TechnologyProcess" name="Technology Process" id="id-1653cd85dd694344867f60ca6c0c760a"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="Communication Network" id="id-b00f298f9e8c41c8ae24f548dad2e2c1"/>
+    <element xsi:type="archimate:Path" id="id-075672f3125140f999dfefcf454a1fba"/>
+    <element xsi:type="archimate:DistributionNetwork" id="id-2cd5fc7ca7364c208f829592b0782d43"/>
+  </folder>
+  <folder name="Motivation" id="id-d6bb49ca14484a889c37e1af11f1487d" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-579ac3bc7c314cf5a6000208015c5c17" type="implementation_migration"/>
+  <folder name="Other" id="id-0eb1be1786104c2ca0037cb9a757eb81" type="other">
+    <element xsi:type="archimate:Junction" name="Junction" id="id-3d5f735ab58048128e0c70d2e3c9cf34"/>
+    <element xsi:type="archimate:Junction" name="Junction" id="id-9f11886749b94830a33038620c3b34d4"/>
+  </folder>
+  <folder name="Relations" id="id-d4fdcff5a8b44d73a4609d78ffc8869a" type="relations">
+    <element xsi:type="archimate:TriggeringRelationship" id="id-11dfe83685bc4cfa843a3d4f86270541" source="id-6b099b14f8c24ad4b7733a14da84a4d6" target="id-2dac8f05d23d408c926dffa871904942"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-92361c832b8045a29cf3cbee3143dbbb" source="id-3d5f735ab58048128e0c70d2e3c9cf34" target="id-2dac8f05d23d408c926dffa871904942"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-7459234504ae40d69902c4b943348f80" source="id-3d5f735ab58048128e0c70d2e3c9cf34" target="id-2496e58666f141f587f5aa67115ee3e1"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-d706a51b6a2d41cd9f132b516e7c9454" source="id-9f11886749b94830a33038620c3b34d4" target="id-f51956889e11407698080c52855f86cd"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-3ed77458fcc94c148f3f0601a4cca2d2" source="id-9f11886749b94830a33038620c3b34d4" target="id-6b099b14f8c24ad4b7733a14da84a4d6"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-e2f32c5efa3541969dd9dc300c75a80a" source="id-9f11886749b94830a33038620c3b34d4" target="id-510e12a8cf1d4727976abeb662d5f39f"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-4dadddeb63334a3197dae75ab01dea05" source="id-3d5f735ab58048128e0c70d2e3c9cf34" target="id-f51956889e11407698080c52855f86cd"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-540442fb44874c7c899ec9210e15b05f" source="id-3d5f735ab58048128e0c70d2e3c9cf34" target="id-510e12a8cf1d4727976abeb662d5f39f"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-06f9c94aeb0d42ac842ac8b28a9464c4" source="id-9f11886749b94830a33038620c3b34d4" target="id-2dac8f05d23d408c926dffa871904942"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-7bb048b1a7234b44b5c8459c862727b6" source="id-751d47382ab745d18be20d9b96ab7b65" target="id-2dac8f05d23d408c926dffa871904942"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-950d73813fe04178a71507b47d7c6cf6" source="id-751d47382ab745d18be20d9b96ab7b65" target="id-f51956889e11407698080c52855f86cd"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-43958066a70e4641abeeab44171df514" source="id-751d47382ab745d18be20d9b96ab7b65" target="id-2496e58666f141f587f5aa67115ee3e1"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-c3fc36f2e062404e85991eb89bce4165" source="id-751d47382ab745d18be20d9b96ab7b65" target="id-510e12a8cf1d4727976abeb662d5f39f"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-adb27ac672504e6b90adc0ed69d2a5b1" source="id-751d47382ab745d18be20d9b96ab7b65" target="id-6b099b14f8c24ad4b7733a14da84a4d6"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-5fc4fc7a9b004c5cad379a5dc7aa39f8" source="id-2dac8f05d23d408c926dffa871904942" target="id-751d47382ab745d18be20d9b96ab7b65"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-bd18e70786ef47248b2d6e74e7777946" source="id-6b099b14f8c24ad4b7733a14da84a4d6" target="id-751d47382ab745d18be20d9b96ab7b65"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-160e1cf6752d4f63b8af0ea3cbcab080" source="id-f51956889e11407698080c52855f86cd" target="id-751d47382ab745d18be20d9b96ab7b65"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-23ca8f250af044c9809e94f3cf86cad5" source="id-510e12a8cf1d4727976abeb662d5f39f" target="id-751d47382ab745d18be20d9b96ab7b65"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-b2b266c21d61436eb241e2b19981407e" source="id-751d47382ab745d18be20d9b96ab7b65" target="id-3b44cffd9946444b8875769c1a007f88"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-8d2403e391ae4021b0e29a49af4e263e" source="id-751d47382ab745d18be20d9b96ab7b65" target="id-1f510c9f08d24165a62d63222de3e401"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-9bf4f92126e94d86b68640595d181eef" source="id-2496e58666f141f587f5aa67115ee3e1" target="id-751d47382ab745d18be20d9b96ab7b65"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-5d80f27480c24639a3db3f38b36095cb" source="id-1f510c9f08d24165a62d63222de3e401" target="id-751d47382ab745d18be20d9b96ab7b65"/>
+  </folder>
+  <folder name="Views" id="id-dc8ef8f40f544d8d80130a0d4824e891" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="System Requirement view" id="id-844a3b21610d4268b98fec0b4c16dec8">
+      <child xsi:type="archimate:DiagramObject" id="id-8db3dd95144d468baa38e57cc44a0191" archimateElement="id-2dac8f05d23d408c926dffa871904942">
+        <bounds x="954" y="72" width="133" height="85"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-2aa864384c364913beaf4d01d43095c7" source="id-8db3dd95144d468baa38e57cc44a0191" target="id-7fd11b8c6a69482e99d29c38c205e2f8" archimateRelationship="id-5fc4fc7a9b004c5cad379a5dc7aa39f8"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-bd32d3f5d7b74fa084cc7e8f68a2b687" archimateElement="id-2496e58666f141f587f5aa67115ee3e1">
+        <bounds x="960" y="405" width="121" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-aec9b90a34f84310af7135cd92fa2567" source="id-bd32d3f5d7b74fa084cc7e8f68a2b687" target="id-7fd11b8c6a69482e99d29c38c205e2f8" archimateRelationship="id-9bf4f92126e94d86b68640595d181eef"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-22cbd7d99aec446d8c42285f1d67723f" archimateElement="id-510e12a8cf1d4727976abeb662d5f39f">
+        <bounds x="534" y="564" width="145" height="61"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-81f7728f3f374e5b93a5f678d5e74f0f" source="id-22cbd7d99aec446d8c42285f1d67723f" target="id-7fd11b8c6a69482e99d29c38c205e2f8" archimateRelationship="id-23ca8f250af044c9809e94f3cf86cad5"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-e4c031e8f6b045bdb40faa9f5edecbe0" archimateElement="id-f51956889e11407698080c52855f86cd">
+        <bounds x="113" y="396" width="145" height="73"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-8a4298c70155494a8f3c0380a8440b1f" source="id-e4c031e8f6b045bdb40faa9f5edecbe0" target="id-7fd11b8c6a69482e99d29c38c205e2f8" archimateRelationship="id-160e1cf6752d4f63b8af0ea3cbcab080"/>
+        <child xsi:type="archimate:DiagramObject" id="id-aba6a3efd61d4140bfc2c15e02be3738" archimateElement="id-23cb3a9e63f94f78af6ecadd33794c25">
+          <bounds x="144" y="-36" width="109" height="73"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-6a51aa538141450da1ad818923d812de" archimateElement="id-6b099b14f8c24ad4b7733a14da84a4d6">
+        <bounds x="108" y="84" width="156" height="61"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-121ad2c2593c4b81a27fa43c914adeb7" source="id-6a51aa538141450da1ad818923d812de" target="id-7fd11b8c6a69482e99d29c38c205e2f8" archimateRelationship="id-bd18e70786ef47248b2d6e74e7777946"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-7fd11b8c6a69482e99d29c38c205e2f8" targetConnections="id-2aa864384c364913beaf4d01d43095c7 id-121ad2c2593c4b81a27fa43c914adeb7 id-8a4298c70155494a8f3c0380a8440b1f id-81f7728f3f374e5b93a5f678d5e74f0f id-aec9b90a34f84310af7135cd92fa2567 id-75ec6ab9dee943c4aa7d486d077e1b4f" archimateElement="id-751d47382ab745d18be20d9b96ab7b65">
+        <bounds x="516" y="264" width="163" height="73"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-f9ba1af3dde9442ba54b63c7039d060c" archimateElement="id-1f510c9f08d24165a62d63222de3e401">
+        <bounds x="540" y="36" width="126" height="67"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-75ec6ab9dee943c4aa7d486d077e1b4f" source="id-f9ba1af3dde9442ba54b63c7039d060c" target="id-7fd11b8c6a69482e99d29c38c205e2f8" archimateRelationship="id-5d80f27480c24639a3db3f38b36095cb"/>
+      </child>
+      <documentation>Trennung: Getrennte für Bio-, Rest-, Papier-, Plastik- &amp; Sondermüll im Haus verfügbar.
+Geruchskontrolle	: Bio-Abfallcontainer mit Aktivkohlefilter.
+Zugänglichkeit:	Müllsystem barrierefrei erreichbar &amp; kinderfreundlich bedienbar
+Entsorgungsplanung:	Erinnerungssystem für Abfuhrtermine via Smart-Home oder App
+Kompostierbarkeit:	Optionale Integration eines kleinen Kompostsystems im Außenbereich
+Dokumentation:	Übersicht über jährliches Abfallaufkommen zur Bilanzierung der Umweltziele</documentation>
+    </element>
+  </folder>
+</archimate:model>
